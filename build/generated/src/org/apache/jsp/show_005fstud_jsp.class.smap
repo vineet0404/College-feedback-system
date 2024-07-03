@@ -1,0 +1,12 @@
+SMAP
+show_005fstud_jsp.java
+JSP
+*S JSP
+*F
++ 0 show_stud.jsp
+show_stud.jsp
+*L
+5,63:45
+68,21:109
+88,35:130
+*E

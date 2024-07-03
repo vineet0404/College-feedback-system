@@ -1,0 +1,139 @@
+body{
+    background: white;
+}
+.btn{
+  height:3.5rem;
+  width: 15rem;
+  background: #527FD7;
+  color:#fff;
+  border-radius: .5rem;
+  font-size: 1.7rem;
+  cursor: pointer;
+  margin:1rem 0;
+  box-shadow: 0 .2rem .4rem #0757F2;
+  opacity: .7;
+}
+header .navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0057FF;
+  align-items: right;
+}
+
+header .navbar li {
+  margin: 0;
+  padding: 0;
+  float: left;
+  font-size: 20px;
+}
+
+header .navbar li a {
+  display: block;
+  color: white;
+  text-align:justify;
+  padding: 18px 36px;
+  text-decoration: underlined;
+}
+
+header .navbar li a:hover {
+  background-color: #FF6666;
+}
+.home{
+  position: relative;
+  min-height: 100vh;
+  z-index: 0;
+}
+
+
+.home .video-container video{
+  position: absolute;
+  top:0; left: 0;
+  object-fit: cover;
+  z-index: -1;
+  background: window;
+}
+.home .content{
+  in-height: 100vh;
+  width: 45rem;
+  background:rgba(255,255,255,.1);
+  text-align: center;
+  padding:2rem 3rem;
+
+}
+
+.home .content .define{
+  align-items: center; 
+  background:#fff;
+  border-radius: 1rem;
+  box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    position:relative;
+    top: 100px;
+    right: 50px;
+    left: 0;
+    background:black;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding:2rem 0;
+}
+
+.footer .box{
+  width:30rem;
+  margin:2rem;
+  text-align: center;
+}
+
+.footer .box:nth-child(1){
+  text-align: left;
+}
+
+.footer .box h3{
+  font-size: 3rem;
+  color: #ae0000;
+  padding:1rem 0;
+}
+
+.footer .box p{
+  color:#666;
+  font-size: 1.5rem;
+}
+
+.footer .box a{
+  color:#666;
+  font-size: 2rem;
+  display: block;
+  padding:.2rem 0;
+}
+
+.footer .box a:hover{
+  text-decoration: underline;
+}
+
+.footer .credit{
+  width: 85%;
+  padding-top: 1rem;
+  font-size: 2rem;
+  color:#666;
+  text-align: center;
+  border-top: .2rem solid #333;
+}
+
+.footer .credit span{
+  color: #ae0000;
+}
